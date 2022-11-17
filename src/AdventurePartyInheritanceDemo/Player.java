@@ -8,19 +8,20 @@ public class Player {  // this is the super class
     protected int shieldPower;
     protected int magicPower;
 
-    Player() {
+    Player() {  // default constructor
         this.name = "John Doe";
         this.kind = "player of unknown kind.";
         this.weapon = "weapon of unknown kind";
         this.attackPower = 10;
-        this.shieldPower = 3;
+        this.shieldPower = 5;
         this.magicPower = 3;
     }
 
-    Player(String _name, String _kind) {
+    Player(String _name, String _kind) {  // overloader constructor - different signature
         this.name = _name;
         this.kind = _kind;
         this.attackPower = 10;
+        this.shieldPower = 5;
         this.magicPower = 3;
     }
 

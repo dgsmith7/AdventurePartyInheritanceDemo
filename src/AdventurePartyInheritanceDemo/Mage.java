@@ -13,12 +13,12 @@ public class Mage extends Player {
         this.weapon = "Magic staff";
     }
 
-    // overriding only attack method from Player class and inheriting everything else from Player class
+    // overriding attack method from Player class
     public void attack() { // mages attack by casting spells using magic power vs with attack power in Player class
         System.out.println("Casting a spell with " + this.weapon + " with " + this.magicPower);
     }
 
-    // adds functionality to Player class getNAme by calling superclass method then doing more stuff
+    // adds functionality to Player class getName by calling superclass method then doing more stuff
     public void getName() {
         super.getName();  // calls super class getName then adds additionally functionality with line below
         System.out.println("All energies flow through me and from me."); // only mages say this

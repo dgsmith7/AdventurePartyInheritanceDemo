@@ -14,7 +14,7 @@ public class Elf extends Player {
     }
 
     // overriding attack method from Player class
-    public void attack() { // elves attack with magic weapons with  magic power and attack power
+    public void attack() { // elves attack with magic weapons with  magic power and attack power unlike super class
         System.out.println("Attacking with " + this.weapon + " with " + (this.magicPower + this.attackPower));
     }
 

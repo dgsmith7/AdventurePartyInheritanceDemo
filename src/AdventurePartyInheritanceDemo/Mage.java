@@ -3,7 +3,7 @@ package AdventurePartyInheritanceDemo;
 public class Mage extends Player {
     Mage() {
         super();  // calls super class constructor
-        this.kind = "Warrior"; // overrides the property assignment in super class
+        this.kind = "Mage"; // overrides the property assignment in super class
         this.weapon = "Magic staff";
     }
 

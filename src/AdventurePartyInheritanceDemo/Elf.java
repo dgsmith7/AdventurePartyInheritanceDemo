@@ -3,7 +3,7 @@ package AdventurePartyInheritanceDemo;
 public class Elf extends Player {
     Elf() {
         super();  // calls super class constructor
-        this.kind = "Warrior"; // overrides the property assignment in super class
+        this.kind = "Elf"; // overrides the property assignment in super class
         this.weapon = "Bow of Infinity";
     }
 

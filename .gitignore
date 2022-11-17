@@ -4,7 +4,9 @@
 # IntelliJ
 .idea/*
 *.iml
+/.idea/
 
 # Compiled output
 *.class
 out/*
+/out/
